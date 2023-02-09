@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto-Regular.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background: #f2f3f2;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+.header-left{
+    flex:2;
+    height: 100%;
+    overflow: hidden;
+    background: black;
+}
+.header-center{
+    flex:1;
+    height: 100%;
+    background:black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-center-img{
+    height: 100%;
+    width: 80%;
+}
+.header-right{
+    flex:2;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /*background: radial-gradient(rgba(0, 0, 0, 0.89),rgba(0, 0, 0, 0.541)), url('./asserts/1670317787552.jpg');
+    background-position: center;
+    background-size: cover;*/
+    background: black;
+}
+.header-right-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.header-row-icon{
+    height: 30px;
+    width: 30px;
+    background: green;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-span-desc{
+    font-size: 13px;
+    color: yellow;
+}
+nav{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.nav-left{
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav-ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-li{
+    font-size: 15px;
+    padding-right: 10px;
+    border-right: 2px solid yellow;
+}
+.nav-li a{
+    text-decoration: none;
+    color: yellow;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.nav-li:nth-child(6){
+    border: none;
+}
+.nav-right{
+    height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-span-right{
+    color: yellow;
+    display: block;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-bande{
+    display: flex;
+    align-items: center;
+    padding: 20px 20px 0 20px;
+    gap: 30px;
+}
+.header-bande-span{
+    color: green;
+    font-weight: 600;
+}
+.header-bande-btn{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: yellow;
+    background: green;
+    padding: 8px 15px;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 70%;
+}
+.header-container-left{
+    position: relative;
+}
+.header-row-img{
+    border: 3px solid green;
+    padding: 5px;
+}
+.header-img{
+    width: 100%;
+    height: 530px;
+    object-fit: cover;
+}
+
+.header-container-center{
+    flex: 2;
+}
+.header-container-center{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    width: 100%;
+    height: 535px;
+}
+.header-row-top{
+    flex: 4;
+}
+.header-h1{
+    font-size: 35px;
+}
+.header-desc{
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px 0;
+    line-height: 1.5;
+    color: gray;
+}
+.header-row-bottom{
+    flex: 2;
+    background: radial-gradient(rgba(0, 0, 0, 0.932),rgba(0, 0, 0, 0.692)), url('/asserts/1670317787552.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-row-h1{
+    font-size: 40px;
+    color: yellow;
+    font-weight: 300;
+}
+
+
+.header-container-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 535px;
+}
+.header-container-right-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-container-rond{
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: green;
+}
+.header-info-lu{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 40px 0;
+}
+.header-info-li{
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 10px;
+}
+.facebook{
+    color: blue;
+}
+.twitter{
+    color: cornflowerblue;
+}
+.instagram{
+    color: brown;
+}
+.youtube{
+    color: red;
+}
+.header-match{
+    width: 100%;
+    background: green;
+    height: 30px;
+    margin: 20px 0;
+}
